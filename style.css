@@ -17,6 +17,15 @@ html{
 nav {
     padding: 20px;
 }
+
+.h1t {
+font-size: 50px;
+text-align: center;
+position: relative;
+margin-top: 40px;
+
+}
+
 .btn1::before{
     width: 0%;
     height: 100%;
@@ -60,6 +69,28 @@ ul{
 }
 li{
     padding-right: 5%;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 10px;
+    color: rgb(22, 14, 4);
+}
+
+h2{
+    font-size: 40px;
+    padding: 10px;
+    color: rgb(22, 14, 4);
+}
+
+h3{
+   font-size: 30px;
+   padding: 10px;
+   color: rgb(22, 14, 4);
+}
+
+p {
+    font-size:  21px;
 }
 .right{
     float: right;
