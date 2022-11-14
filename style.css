@@ -6,12 +6,17 @@ html{
     background-position: center;
     background-attachment: fixed;
     color: white;
+    font-family: 'Quicksand', sans-serif;
+
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 .logo-inicio {
     width: 350px;
     margin-top: 20px;
     margin-left: 20px;
+    border-radius: 160px;
 }
 
 nav {
@@ -97,4 +102,24 @@ p {
 }
 .img{
     display: inline-flex;
+}
+
+.roda {
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.copyright {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+
+}
+footer{
+    margin-top: 15rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
 }
