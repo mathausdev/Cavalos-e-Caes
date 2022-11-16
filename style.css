@@ -30,7 +30,7 @@ font-size: 50px;
 text-align: center;
 position: relative;
 margin-top: 40px;
-text-shadow: 3px 3px  rgb(230, 227, 227);
+text-shadow: 3px 3px  rgb(71, 50, 50);
 
 
 }
@@ -172,4 +172,8 @@ footer{
     background-color: rgb(255, 255, 255);
     text-shadow: 3px 3px  rgb(185, 169, 169);
     width: 100%;
+}
+
+.fot {
+    margin-top: 600px;
 }
