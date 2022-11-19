@@ -182,9 +182,9 @@ footer{
     text-shadow: 2px 2px  rgb(184, 176, 176);
 }
 
-.text2 {`
+.text2 {
     font-size: 50px;
-    text-align: center;
+    text-align: left;
     position: relative;
     margin-top: 40px;
     text-shadow: 3px 3px  rgb(71, 50, 50);
@@ -192,6 +192,6 @@ footer{
 
 .title2 {
     margin-top: 20px;
-    text-shadow: 3px 3px  rgb(172, 158, 158);
+    text-shadow: 3px 3px  rgb(71, 50, 50);
     text-align: center;
 }
