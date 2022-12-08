@@ -1,197 +1,21 @@
+
 html{
-    background-color: black;
-    background-image: url(topo.jpg);   
+  
+    background-image: url(fundo.jpg); 
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     color: white;
     font-family: 'Quicksand', sans-serif;
-
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-
-.logo-inicio {
-    width: 350px;
-    margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 160px;
-    box-shadow: 9px 7px 5px rgba(7, 3, 3, 0.77);
-    
-}
-
-nav {
-    padding: 20px;
-}
-
-.h1t {
-font-size: 50px;
-text-align: center;
-position: relative;
-margin-top: 40px;
-text-shadow: 3px 3px  rgb(71, 50, 50);
-
-
-}
-
-.btn1::before{
-    width: 0%;
-    height: 100%;
   }
+
+  .t1 {
+    text-align: center;
+  }
+
+  .t2 {
+    text-align: center;
+  }
+
   
-  .btn1:hover::before{
-    width: 100%;
-  }
-  .btn{
-    position: relative;
-    display: block;
-    color: white;
-    font-size: 14px;
-    font-family: "montserrat";
-    text-decoration: none;
-    margin: 30px 0;
-    border: 2px solid #000000;
-    padding: 14px 60px;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: 1s all ease;
-  }
-  .btn::before{
-    background: #642b06;
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: -1;
-    transition: all 0.6s ease;
-  }
-a{
-    text-decoration: none;
-    color: inherit;
-    font-size: 30px;
-    font-weight: bold;
-    text-shadow: 2px 2px  rgb(27, 25, 25);
-}
-ul{
-    display: inline-flex;
-}
-li{
-    padding-right: 5%;
-}
-
-h1 {
-    font-size: 50px;
-    padding: 10px;
-    color: rgb(22, 14, 4);
-    
-}
-
-h2{
-    font-size: 40px;
-    padding: 10px;
-    color: rgb(22, 14, 4);
-}
-
-h3{
-   font-size: 30px;
-   padding: 10px;
-   color: rgb(22, 14, 4);
-}
-
-p {
-    font-size:  21px;
-    margin-left: 10px;
-}
-.right{
-    float: right;
-}
-.img{
-    display: inline-flex;
-}
-
-.beneficios {
-	padding: 3em 0;
-	background: #888888;
-    
-}
-
-.conteudo-beneficios {
-	width: 640px;
-	margin: 0 auto;
-    margin-top: 100px;
-    text-shadow: 3px 3px  rgb(70, 66, 66);
-}
-
-.lista-beneficios {
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.itens {
-	line-height: 1.5;
-}
-
-.itens:first-child {
-	font-weight: bold;
-}
-
-.itens:before {
-	content: "🟊";
-}
-
-.imagem-beneficios {
-	width: 60%;
-	opacity: 1;
-	transition: 400ms;
-	box-shadow: 10px 10px 10px 0 #000000;
-}
-
-.imagem-beneficios:hover {
-	opacity: 0.3;
-}
-
-.roda {
-    width: 80px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.copyright {
-    text-align: center;
-    color: #000000;
-    font-weight: bold;
-
-}
-footer{
-    margin-top: 15rem;
-    background-color: rgb(255, 255, 255);
-    text-shadow: 3px 3px  rgb(185, 169, 169);
-    width: 100%;
-}
-
-.fot {
-    margin-top: 600px;
-}
-
-.h12 {
-    text-shadow: 2px 2px  rgb(184, 176, 176);
-}
-
-.text2 {
-    font-size: 50px;
-    text-align: left;
-    position: relative;
-    margin-top: 40px;
-    text-shadow: 3px 3px  rgb(71, 50, 50);
-}
-
-.title2 {
-    margin-top: 20px;
-    text-shadow: 3px 3px  rgb(71, 50, 50);
-    text-align: center;
-}
